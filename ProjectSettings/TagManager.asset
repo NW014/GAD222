@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Edges
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Cliff
+  - Plant
+  - Wall
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Water
+    uniqueID: 2543187481
+    locked: 0
+  - name: Ground
+    uniqueID: 325535185
+    locked: 0
+  - name: Plants
+    uniqueID: 1616465017
+    locked: 0
+  - name: Player
+    uniqueID: 4167753775
+    locked: 0
+  - name: UI
+    uniqueID: 1499224823
+    locked: 0
+  m_RenderingLayers:
+  - Default
