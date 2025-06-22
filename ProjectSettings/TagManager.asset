@@ -56,6 +56,9 @@ TagManager:
   - name: Floor
     uniqueID: 2398233989
     locked: 0
+  - name: Carpet
+    uniqueID: 524415823
+    locked: 0
   - name: Walls
     uniqueID: 3625289265
     locked: 0
