@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Edges
+  - Bag
+  - Item
+  - Food
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -48,8 +52,17 @@ TagManager:
   - name: Ground
     uniqueID: 325535185
     locked: 0
+  - name: Floor
+    uniqueID: 2398233989
+    locked: 0
+  - name: Furniture
+    uniqueID: 3351387923
+    locked: 0
   - name: Plants
     uniqueID: 1616465017
+    locked: 0
+  - name: Item
+    uniqueID: 1312031763
     locked: 0
   - name: Player
     uniqueID: 4167753775

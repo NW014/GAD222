@@ -11,14 +11,34 @@ public class InteractZone : MonoBehaviour, IInteractable
     [SerializeField] UnityEvent onTriggerStay2D;
     [SerializeField] UnityEvent onTriggerExit2D;
     [SerializeField] private string tagCheck;
+    [SerializeField] private string bagTagCheck = "Bag";
+    [SerializeField] private bool bagFound = false;
     [SerializeField] private Vector2 selfPosition;
     [SerializeField] private Vector2 otherPosition;
+    private GameObject PlayerObject;
+    
+    private bool bagCollected = false;
 
     // To check if interacted object can move to face the player
     // public bool CanMove;
     public bool inDialogueRange = false;
     private bool isActive;
     // private bool isInteracting = false;
+
+    public void OnEnable()
+    {
+        
+        GameEventsManager.Instance.inventoryEvents.bagCheck += BagCheck;
+        GameEventsManager.Instance.inventoryEvents.bagFound += BagCollected;
+        GameEventsManager.Instance.inventoryEvents.itemCollect += ItemCollected;
+    }
+
+    public void OnDisable()
+    {
+        GameEventsManager.Instance.inventoryEvents.bagFound -= BagCollected;
+        GameEventsManager.Instance.inventoryEvents.bagCheck -= BagCheck;
+        GameEventsManager.Instance.inventoryEvents.itemCollect += ItemCollected;
+    }
 
     public void Awake()
     {
@@ -33,6 +53,7 @@ public class InteractZone : MonoBehaviour, IInteractable
         if (player != null)
         {
             player.nearInteractable = this;
+            PlayerObject = other.gameObject;
         }
         
         if (isActive)
@@ -61,6 +82,7 @@ public class InteractZone : MonoBehaviour, IInteractable
         if (player != null)
         {
             player.nearInteractable = null;
+            PlayerObject = null;
         }
         
         if (!string.IsNullOrEmpty(tagCheck) && (other.gameObject.CompareTag(tagCheck)))
@@ -97,8 +119,52 @@ public class InteractZone : MonoBehaviour, IInteractable
         ClickToContinue();
     }
     
+    public void BagCheck()
+    {
+        if (PlayerObject != null)
+        {
+            if (!bagCollected)
+            {
+                if (bagTagCheck != null)
+                {
+                    if (this.gameObject.CompareTag(bagTagCheck))
+                    {
+                        bagCollected = true;
+                        GameEventsManager.Instance.inventoryEvents.ItemCollect(1);
+                        GameEventsManager.Instance.inventoryEvents.BagFound();
+                        Debug.Log("You have picked up a bag!");
+                    }
+                    else
+                    {
+                        return;
+                    } 
+                }
+                else
+                {
+                    Debug.Log("There is no tag to be checked.");
+                }
+            }
+            else
+            {
+                if (!gameObject.CompareTag("Door"))
+                {
+                    GameEventsManager.Instance.inventoryEvents.ItemCollect(1);
+                }
+            }
+        }
+    }
     
-    
+    public void BagCollected()
+    {
+        bagCollected = true;
+    }
 
+    public void ItemCollected(float amount)
+    {
+        if (PlayerObject != null)
+        {
+            Destroy(gameObject);
+        }
+    }
     
 }

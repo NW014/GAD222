@@ -15,7 +15,7 @@
             Whatever, just don't steal my coins.
             ~ interactedWithGoblin = true
             -> END
-    }
+}
 + [Stay silent]
     -> goblinCombatStart
 

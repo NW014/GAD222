@@ -13,6 +13,8 @@ public class Dialogue : MonoBehaviour
 
     [SerializeField] private GameObject startingDialogueBox;
     
+    
+    
     void Start()
     {
         startingDialogueBox.SetActive(true);

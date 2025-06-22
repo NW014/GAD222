@@ -105,6 +105,8 @@ public class DialogueManager : MonoBehaviour
         else if (story.currentChoices.Count == 0)
         {
             ExitDialogue();
+            // invoke item check?
+            GameEventsManager.Instance.inventoryEvents.BagCheck();
         }
     }
 

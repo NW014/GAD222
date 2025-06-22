@@ -8,4 +8,24 @@ public class InventoryEvents
     {
         onAppleGained?.Invoke(appleCount);
     }
+
+    public event Action<float> itemCollect;
+    public void ItemCollect(float itemCount)
+    {
+        itemCollect?.Invoke(itemCount);
+    }
+
+    public event Action bagCheck;
+
+    public void BagCheck()
+    {
+        bagCheck?.Invoke();
+    }
+
+    public event Action bagFound;
+
+    public void BagFound()
+    {
+        bagFound?.Invoke();
+    }
 }
