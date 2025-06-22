@@ -197,14 +197,16 @@ public class Player : MonoBehaviour
     {
         movementDisabled = true;
         // hides "E to interact" hint when in dialogue.
-        eInteracttext.gameObject.SetActive(false);
+        // eInteracttext.gameObject.SetActive(false);
+        interactHint.SetActive(false);
     }
 
     private void EnablePlayerMovement() 
     {
         movementDisabled = false;
         // shows "E to interact" hint when done with dialogue.
-        eInteracttext.gameObject.SetActive(true);
+        // eInteracttext.gameObject.SetActive(true);
+        interactHint.SetActive(true);
     }
     
     private void CalculateDirection()

@@ -127,7 +127,7 @@ public class InteractZone : MonoBehaviour, IInteractable
             {
                 if (bagTagCheck != null)
                 {
-                    if (this.gameObject.CompareTag(bagTagCheck))
+                    if (gameObject.CompareTag(bagTagCheck))
                     {
                         bagCollected = true;
                         GameEventsManager.Instance.inventoryEvents.ItemCollect(1);
@@ -146,7 +146,7 @@ public class InteractZone : MonoBehaviour, IInteractable
             }
             else
             {
-                if (!gameObject.CompareTag("Door"))
+                if (!gameObject.CompareTag("Door") && !gameObject.CompareTag("NotItem"))
                 {
                     GameEventsManager.Instance.inventoryEvents.ItemCollect(1);
                 }

@@ -1,6 +1,6 @@
 === DoorStart ===
 {bagCollected:
-    {itemCount < 2:
+    {itemCount < 4:
         Feels like I'm still forgetting something...
         Better check the house again to be sure.
         -> END

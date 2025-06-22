@@ -6,7 +6,8 @@ using TMPro;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI dialogueText;
-    public TextMeshProUGUI interactHintText;
+    //public TextMeshProUGUI interactHintText;
+    public GameObject thoughtBubble;
     public string[] lines;
     public float textSpeed;
     private int index;
@@ -60,7 +61,8 @@ public class Dialogue : MonoBehaviour
             GameEventsManager.Instance.playerEvents.EnablePlayerMovement();
             
             // manually hiding hint again since EnablePlayerMovement will re-enable it.
-            interactHintText.gameObject.SetActive(false);
+            // interactHintText.gameObject.SetActive(false);
+            thoughtBubble.gameObject.SetActive(false);
             gameObject.SetActive(false);
         }
     }

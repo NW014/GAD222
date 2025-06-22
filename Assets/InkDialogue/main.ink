@@ -12,7 +12,10 @@ VAR itemCount = 0
 INCLUDE npc1.ink
 INCLUDE statue.ink
 INCLUDE Intro.ink
-INCLUDE Dairy.ink
+INCLUDE Diary.ink
 INCLUDE Carrot.ink
 INCLUDE DoorStart.ink
 INCLUDE Bag.ink
+INCLUDE Pot.ink
+INCLUDE Sword.ink
+INCLUDE Map.ink

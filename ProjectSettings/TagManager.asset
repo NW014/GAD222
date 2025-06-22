@@ -9,6 +9,7 @@ TagManager:
   - Item
   - Food
   - Door
+  - NotItem
   layers:
   - Default
   - TransparentFX
@@ -54,6 +55,9 @@ TagManager:
     locked: 0
   - name: Floor
     uniqueID: 2398233989
+    locked: 0
+  - name: Walls
+    uniqueID: 3625289265
     locked: 0
   - name: Furniture
     uniqueID: 3351387923

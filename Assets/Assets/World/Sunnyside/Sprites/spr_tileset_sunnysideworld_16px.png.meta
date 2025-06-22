@@ -17184,7 +17184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_727
+      name: Sword
       rect:
         serializedVersion: 2
         x: 576
@@ -17196,7 +17196,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 5, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: -5}
+        - {x: 5, y: -5}
       tessellationDetail: 0
       bones: []
       spriteID: 9b254038081452140abd06c4e050878f
@@ -20210,7 +20214,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 5, y: 6}
+        - {x: -5, y: 6}
+        - {x: -5, y: -5}
+        - {x: 5, y: -5}
       tessellationDetail: 0
       bones: []
       spriteID: 980e61009cf49e0459404b1a0c1a698c
@@ -20232,7 +20240,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 6, y: 7}
+        - {x: -4, y: 7}
+        - {x: -4, y: -4}
+        - {x: 6, y: -4}
       tessellationDetail: 0
       bones: []
       spriteID: 1e0af768d391ad2489cb3a69bf69d061
@@ -20254,7 +20266,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: -8}
+        - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: 416a39d79b00e4d41bef9eabb69bbd31
@@ -20276,7 +20292,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: 55688728d98941b43b7184269be05365
@@ -21178,7 +21198,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: -2, y: 8}
+        - {x: 6, y: 0}
+        - {x: 8, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: c37581c2abc908d46b426ee303f0a05b
@@ -21200,7 +21224,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 1, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: -6, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: 6ba3b25086613514bb7bd56e1e4ac8ca
@@ -30410,7 +30438,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1328
+      name: Pot
       rect:
         serializedVersion: 2
         x: 768
@@ -31459,7 +31487,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1374
+      name: Frame 1
       rect:
         serializedVersion: 2
         x: 848
@@ -31481,7 +31509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1375
+      name: Frame 2
       rect:
         serializedVersion: 2
         x: 864
@@ -35202,7 +35230,12 @@ TextureImporter:
         - {x: 4, y: -2}
         - {x: 5, y: -5}
         - {x: 8, y: -5}
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 5}
+        - {x: 5, y: 5}
+        - {x: 4, y: 4}
+        - {x: 4, y: -5}
+        - {x: 8, y: -5}
       tessellationDetail: 0
       bones: []
       spriteID: 2076150db3534674c85d6e3560d669eb
@@ -35228,7 +35261,11 @@ TextureImporter:
         - {x: -8, y: 5}
         - {x: -8, y: -5}
         - {x: 8, y: -5}
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 5}
+        - {x: -8, y: 5}
+        - {x: -8, y: -5}
+        - {x: 8, y: -5}
       tessellationDetail: 0
       bones: []
       spriteID: 5e8906362f9920e41b13e439de419668
@@ -35256,7 +35293,12 @@ TextureImporter:
         - {x: -8, y: 5}
         - {x: -8, y: -5}
         - {x: -5, y: -5}
-      physicsShape: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -5, y: 5}
+        - {x: -8, y: 5}
+        - {x: -8, y: -5}
+        - {x: -4, y: -5}
       tessellationDetail: 0
       bones: []
       spriteID: 5309c30fcfa2bb64390841bae3dcb436
@@ -39617,6 +39659,8 @@ TextureImporter:
       Dirt: 8715399742379322829
       Door_Blue_Closed: -1617188184
       Door_Blue_Open: -1173671470
+      Frame 1: -1944598652
+      Frame 2: 1673435279
       Grass: -2289358929595113809
       Grass_0: -3075014611995047755
       Grass_1: -5049414603410015477
@@ -39631,6 +39675,8 @@ TextureImporter:
       Grass_7: -8353574993256053803
       Grass_8: 9178646841562992775
       Grass_9: 3256804187446908424
+      Pot: -983249719
+      Sword: 1350157955
       Water: -7367058857156237643
       spr_tileset_sunnysideworld_16px_0: -6320133571953211665
       spr_tileset_sunnysideworld_16px_1: -8762868595328515131
@@ -39987,7 +40033,6 @@ TextureImporter:
       spr_tileset_sunnysideworld_16px_1325: 1500346609
       spr_tileset_sunnysideworld_16px_1326: 1623544144
       spr_tileset_sunnysideworld_16px_1327: -1127839245
-      spr_tileset_sunnysideworld_16px_1328: -983249719
       spr_tileset_sunnysideworld_16px_1329: -1205780905
       spr_tileset_sunnysideworld_16px_133: -5977320386443697242
       spr_tileset_sunnysideworld_16px_1330: 793243308
@@ -40038,8 +40083,6 @@ TextureImporter:
       spr_tileset_sunnysideworld_16px_1371: -1021482497
       spr_tileset_sunnysideworld_16px_1372: -2122157584
       spr_tileset_sunnysideworld_16px_1373: -407132097
-      spr_tileset_sunnysideworld_16px_1374: -1944598652
-      spr_tileset_sunnysideworld_16px_1375: 1673435279
       spr_tileset_sunnysideworld_16px_1376: 355340889
       spr_tileset_sunnysideworld_16px_1377: -603062918
       spr_tileset_sunnysideworld_16px_1378: 116879686
@@ -41050,7 +41093,6 @@ TextureImporter:
       spr_tileset_sunnysideworld_16px_724: -73886339
       spr_tileset_sunnysideworld_16px_725: -385553761
       spr_tileset_sunnysideworld_16px_726: 1330759933
-      spr_tileset_sunnysideworld_16px_727: 1350157955
       spr_tileset_sunnysideworld_16px_728: 2048242170
       spr_tileset_sunnysideworld_16px_729: -396954177
       spr_tileset_sunnysideworld_16px_73: -1189748913732912987
