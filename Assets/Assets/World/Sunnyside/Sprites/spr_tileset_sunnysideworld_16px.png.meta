@@ -28560,7 +28560,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -7}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: 4a73e190ee71e4646a2efd224c31bec1
@@ -28582,7 +28586,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -7}
+        - {x: -8, y: -7}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: 1f67a6f3969848e4aaac5e79e3b3b99d
@@ -28604,7 +28612,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: -8, y: -7}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: d192009394dc8b442996e347972d1eb4
@@ -30188,7 +30200,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: 7}
+        - {x: 7, y: -8}
+        - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: 391c00238a57e0941925fb638d030250
@@ -30232,7 +30249,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 7}
+        - {x: 8, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -7, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: addc299cb4b46f64d95ce8193da96861
@@ -30616,7 +30638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1335
+      name: dirt_Edge_TopLeft
       rect:
         serializedVersion: 2
         x: 80
@@ -30638,7 +30660,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1336
+      name: dirt_Top
       rect:
         serializedVersion: 2
         x: 96
@@ -30660,7 +30682,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1337
+      name: dirt_Edge_TopRight
       rect:
         serializedVersion: 2
         x: 112
@@ -31577,7 +31599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1377
+      name: dirt_TopLeft
       rect:
         serializedVersion: 2
         x: 80
@@ -31599,7 +31621,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1378
+      name: dirt_base4
       rect:
         serializedVersion: 2
         x: 96
@@ -31621,7 +31643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1379
+      name: dirt_TopRight
       rect:
         serializedVersion: 2
         x: 112
@@ -32462,7 +32484,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1416
+      name: dirt_Left
       rect:
         serializedVersion: 2
         x: 64
@@ -32484,7 +32506,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1417
+      name: dirt_base2
       rect:
         serializedVersion: 2
         x: 80
@@ -32506,7 +32528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1418
+      name: dirt_base1
       rect:
         serializedVersion: 2
         x: 96
@@ -32528,7 +32550,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1419
+      name: dirt_base3
       rect:
         serializedVersion: 2
         x: 112
@@ -32550,7 +32572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1420
+      name: dirt_Right
       rect:
         serializedVersion: 2
         x: 128
@@ -33230,7 +33252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1450
+      name: dirt_BottomLeft
       rect:
         serializedVersion: 2
         x: 80
@@ -33252,7 +33274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1451
+      name: dirt_base5
       rect:
         serializedVersion: 2
         x: 96
@@ -33274,7 +33296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1452
+      name: dirt_BottomRight
       rect:
         serializedVersion: 2
         x: 112
@@ -34058,7 +34080,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1487
+      name: dirt_Edge_BottomLeft
       rect:
         serializedVersion: 2
         x: 80
@@ -34080,7 +34102,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1488
+      name: dirt_Bottom
       rect:
         serializedVersion: 2
         x: 96
@@ -34102,7 +34124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1489
+      name: dirt_Edge_BottomRight
       rect:
         serializedVersion: 2
         x: 112
@@ -39713,6 +39735,23 @@ TextureImporter:
       cliff_TopRight: 883149443
       cliff_TopSideLeft: 2002087628
       cliff_TopSideRight: -1586361596
+      dirt_Bottom: 571713818
+      dirt_BottomLeft: 1947571963
+      dirt_BottomRight: 1431716920
+      dirt_Edge_BottomLeft: 754027015
+      dirt_Edge_BottomRight: 42900834
+      dirt_Edge_TopLeft: 1418932960
+      dirt_Edge_TopRight: -476819828
+      dirt_Left: 981559143
+      dirt_Right: 870492029
+      dirt_Top: -1994269056
+      dirt_TopLeft: -603062918
+      dirt_TopRight: -267225314
+      dirt_base1: 250728387
+      dirt_base2: 1211431668
+      dirt_base3: -194771175
+      dirt_base4: 116879686
+      dirt_base5: -503089639
       spr_tileset_sunnysideworld_16px_0: -6320133571953211665
       spr_tileset_sunnysideworld_16px_1: -8762868595328515131
       spr_tileset_sunnysideworld_16px_100: -1683475989822495400
@@ -40064,9 +40103,6 @@ TextureImporter:
       spr_tileset_sunnysideworld_16px_1332: -454043370
       spr_tileset_sunnysideworld_16px_1333: -1775340496
       spr_tileset_sunnysideworld_16px_1334: -468548985
-      spr_tileset_sunnysideworld_16px_1335: 1418932960
-      spr_tileset_sunnysideworld_16px_1336: -1994269056
-      spr_tileset_sunnysideworld_16px_1337: -476819828
       spr_tileset_sunnysideworld_16px_1338: -1168810158
       spr_tileset_sunnysideworld_16px_1339: 752787547
       spr_tileset_sunnysideworld_16px_134: -4086278587231816967
@@ -40108,9 +40144,6 @@ TextureImporter:
       spr_tileset_sunnysideworld_16px_1372: -2122157584
       spr_tileset_sunnysideworld_16px_1373: -407132097
       spr_tileset_sunnysideworld_16px_1376: 355340889
-      spr_tileset_sunnysideworld_16px_1377: -603062918
-      spr_tileset_sunnysideworld_16px_1378: 116879686
-      spr_tileset_sunnysideworld_16px_1379: -267225314
       spr_tileset_sunnysideworld_16px_138: -8027645843403328806
       spr_tileset_sunnysideworld_16px_1380: -99279483
       spr_tileset_sunnysideworld_16px_1381: 520460172
@@ -40152,12 +40185,7 @@ TextureImporter:
       spr_tileset_sunnysideworld_16px_1413: -132528423
       spr_tileset_sunnysideworld_16px_1414: 412480924
       spr_tileset_sunnysideworld_16px_1415: 1862706825
-      spr_tileset_sunnysideworld_16px_1416: 981559143
-      spr_tileset_sunnysideworld_16px_1417: 1211431668
-      spr_tileset_sunnysideworld_16px_1418: 250728387
-      spr_tileset_sunnysideworld_16px_1419: -194771175
       spr_tileset_sunnysideworld_16px_142: -6036137751637533157
-      spr_tileset_sunnysideworld_16px_1420: 870492029
       spr_tileset_sunnysideworld_16px_1421: 2104198592
       spr_tileset_sunnysideworld_16px_1422: -555397087
       spr_tileset_sunnysideworld_16px_1423: -746759982
@@ -40190,9 +40218,6 @@ TextureImporter:
       spr_tileset_sunnysideworld_16px_1448: -1908714941
       spr_tileset_sunnysideworld_16px_1449: -311860263
       spr_tileset_sunnysideworld_16px_145: -5408345230056351015
-      spr_tileset_sunnysideworld_16px_1450: 1947571963
-      spr_tileset_sunnysideworld_16px_1451: -503089639
-      spr_tileset_sunnysideworld_16px_1452: 1431716920
       spr_tileset_sunnysideworld_16px_1453: -818514132
       spr_tileset_sunnysideworld_16px_1454: 156210453
       spr_tileset_sunnysideworld_16px_1455: -662966511
@@ -40230,9 +40255,6 @@ TextureImporter:
       spr_tileset_sunnysideworld_16px_1484: -1799054866
       spr_tileset_sunnysideworld_16px_1485: -929407360
       spr_tileset_sunnysideworld_16px_1486: -184396142
-      spr_tileset_sunnysideworld_16px_1487: 754027015
-      spr_tileset_sunnysideworld_16px_1488: 571713818
-      spr_tileset_sunnysideworld_16px_1489: 42900834
       spr_tileset_sunnysideworld_16px_149: 1295427654154014546
       spr_tileset_sunnysideworld_16px_1490: -1829006880
       spr_tileset_sunnysideworld_16px_1491: 1610336081
