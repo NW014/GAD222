@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GAD222.unity
     guid: 75bc612b99177254b8f6dfa10aedab5e
+  - enabled: 1
+    path: Assets/Scenes/Outdoor.unity
+    guid: 7adb3c7869e038047a6a0b7e6e0f3e12
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

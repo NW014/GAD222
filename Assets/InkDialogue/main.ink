@@ -1,6 +1,7 @@
 EXTERNAL AddCoin(coinCount)
 EXTERNAL AddApple(appleCount)
 EXTERNAL StartCombat()
+EXTERNAL EnterBuilding(value)
 
 VAR playerName = ""
 VAR interactedWithGoblin = false
@@ -19,3 +20,4 @@ INCLUDE Bag.ink
 INCLUDE Pot.ink
 INCLUDE Sword.ink
 INCLUDE Map.ink
+INCLUDE Sign.ink

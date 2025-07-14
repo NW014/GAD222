@@ -20,7 +20,7 @@ public class Object : MonoBehaviour
 
     void Start()
     {
-        //thisAsset = GetComponent<SpriteRenderer>();
+        thisAsset = GetComponent<SpriteRenderer>();
         
     }
 

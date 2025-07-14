@@ -23,6 +23,7 @@ public class GameEventsManager : MonoBehaviour
     public CoinEvents coinEvents;
     public InventoryEvents inventoryEvents;
     public BattleEvents battleEvents;
+    public TransitionEvents transitionEvents;
 
     void Awake()
     {
@@ -34,5 +35,6 @@ public class GameEventsManager : MonoBehaviour
         coinEvents = new CoinEvents();
         inventoryEvents = new InventoryEvents();
         battleEvents = new BattleEvents();
+        transitionEvents = new TransitionEvents();
     }
 }

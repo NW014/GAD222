@@ -10,6 +10,7 @@ public class InkExternalFunctions
         story.BindExternalFunction("AddCoin", (float coinCount) => AddCoin(coinCount));
         story.BindExternalFunction("AddApple", (float appleCount) => AddApple(appleCount));
         story.BindExternalFunction("StartCombat", () => StartBattle());
+        story.BindExternalFunction("EnterBuilding", (int value) => EnterBuilding(value));
     }
 
     public void Unbind(Story story)
@@ -31,5 +32,10 @@ public class InkExternalFunctions
     private void StartBattle()
     {
         GameEventsManager.Instance.battleEvents.StartBattle();
+    }
+
+    private void EnterBuilding(int value)
+    {
+        GameEventsManager.Instance.transitionEvents.EnterBuilding(value);
     }
 }

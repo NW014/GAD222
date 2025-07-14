@@ -1,15 +1,22 @@
 === DoorStart ===
 {bagCollected:
-    {itemCount < 4:
-        Feels like I'm still forgetting something...
-        Better check the house again to be sure.
+    {itemsCollected:
         -> END
-        
+    
         - else:
-        I think that's everything. Time to start my journey!
-        
-        (Now pretend the door has opened and you're able to go outside. This is as far as this prototype goes.)
-        -> END
+        {itemCount < 4:
+            Feels like I'm still forgetting something...
+            Better check the house again to be sure.
+            -> END
+            
+            - else:
+            I think that's everything. Time to start my journey!
+            
+            (Now pretend the door has opened and you're able to go outside. This is as far as this prototype goes.)
+            ~itemsCollected = true
+            ~ EnterBuilding(1)
+            -> END
+        }
     }
 }
 I should find my bag first.

@@ -38,12 +38,17 @@ public class Transition : MonoBehaviour
     {
         GameEventsManager.Instance.battleEvents.onSceneRevert += TransitionToMain;
         GameEventsManager.Instance.battleEvents.startBattle += StartBattle;
+        
+        GameEventsManager.Instance.transitionEvents.onEnterBuilding += EnterBuilding;
+
     }
 
     public void OnDisable()
     {
         GameEventsManager.Instance.battleEvents.onSceneRevert -= TransitionToMain;
         GameEventsManager.Instance.battleEvents.startBattle -= StartBattle;
+        
+        GameEventsManager.Instance.transitionEvents.onEnterBuilding -= EnterBuilding;
     }
     
     
@@ -61,6 +66,8 @@ public class Transition : MonoBehaviour
         Debug.Log("Battle starting...");
         StartCoroutine(TransitionToBattle());
     }
+
+
 
     IEnumerator TransitionToBattle()
     {
@@ -115,7 +122,11 @@ public class Transition : MonoBehaviour
         sceneChanger.SetTrigger("Continue");
         
         yield return new WaitForSeconds(1f);
-        
-        
+    }
+    
+    public void EnterBuilding(int value)
+    {
+        player.transform.position = new Vector2(0,0);
+        SceneManager.LoadScene(value);
     }
 }

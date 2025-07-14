@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="174934d7-f308-41db-aac5-e162ae7d99f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Sprites/spr_tileset_sunnysideworld_16px.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Sprites/spr_tileset_sunnysideworld_16px.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD222/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD222/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Tiles/Rule/RT_Cliff_Grass.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Tiles/Rule/RT_Cliff_Grass.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/DoorStart.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/DoorStart.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/main.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/main.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/main.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/main.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GAD222.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GAD222.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Outdoor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Outdoor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialoguePanelUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialoguePanelUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/InkExternalFunctions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/InkExternalFunctions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/InventoryEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/InventoryEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameEventsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameEventsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Object.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Object.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +36,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/TransitionEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -100,6 +117,7 @@
       <workItem from="1750576124013" duration="15258000" />
       <workItem from="1750602352427" duration="5919000" />
       <workItem from="1750901226624" duration="1222000" />
+      <workItem from="1752477913750" duration="27456000" />
     </task>
     <servers />
   </component>

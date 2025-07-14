@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class InteractZone : MonoBehaviour, IInteractable
 {
@@ -15,6 +16,13 @@ public class InteractZone : MonoBehaviour, IInteractable
     [SerializeField] private bool bagFound = false;
     [SerializeField] private Vector2 selfPosition;
     [SerializeField] private Vector2 otherPosition;
+
+    [SerializeField] private bool isTravelPoint;
+    [SerializeField] private int SceneValue;
+
+    [SerializeField] private GameObject thoughtBubble;
+    
+    
     private GameObject PlayerObject;
     
     private bool bagCollected = false;
@@ -27,10 +35,11 @@ public class InteractZone : MonoBehaviour, IInteractable
 
     public void OnEnable()
     {
-        
         GameEventsManager.Instance.inventoryEvents.bagCheck += BagCheck;
         GameEventsManager.Instance.inventoryEvents.bagFound += BagCollected;
         GameEventsManager.Instance.inventoryEvents.itemCollect += ItemCollected;
+        
+        // thoughtBubble = GameObject.FindWithTag("Bubble");
     }
 
     public void OnDisable()
@@ -38,6 +47,7 @@ public class InteractZone : MonoBehaviour, IInteractable
         GameEventsManager.Instance.inventoryEvents.bagFound -= BagCollected;
         GameEventsManager.Instance.inventoryEvents.bagCheck -= BagCheck;
         GameEventsManager.Instance.inventoryEvents.itemCollect += ItemCollected;
+        
     }
 
     public void Awake()
@@ -49,6 +59,9 @@ public class InteractZone : MonoBehaviour, IInteractable
     {
         Player player = other.gameObject.GetComponent<Player>();
         otherPosition = other.transform.position;
+        thoughtBubble = player.transform.GetChild(1).GetChild(0).gameObject;
+        
+        thoughtBubble.gameObject.SetActive(true);
 
         if (player != null)
         {
@@ -71,11 +84,16 @@ public class InteractZone : MonoBehaviour, IInteractable
     {
         // gets the position of the other object within the zone.
         otherPosition = other.transform.position;
+        
+        thoughtBubble.gameObject.SetActive(true);
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
         Player player = other.gameObject.GetComponent<Player>();
+        
+        thoughtBubble.gameObject.SetActive(false);
+        
         // clears out the otherPosition variable
         otherPosition = new Vector2(); 
 
@@ -96,6 +114,7 @@ public class InteractZone : MonoBehaviour, IInteractable
     public void DoZoneStuff()
     {
         GameEventsManager.Instance.dialogueEvents.EnterDialogue(dialogueKnotName);
+        Debug.Log(dialogueKnotName);
         GameEventsManager.Instance.dialogueEvents.FaceOtherThing(otherPosition, selfPosition);
     }
 
@@ -111,12 +130,28 @@ public class InteractZone : MonoBehaviour, IInteractable
     public void Interact()
     {
         // Do whatever this particular object needs. Different for every object
-        DoZoneStuff();
+        
+        if (isTravelPoint)
+        {
+            GameEventsManager.Instance.transitionEvents.EnterBuilding(SceneValue);
+        }
+        else
+        {
+            DoZoneStuff();
+        }
+        
     }
 
     public void ContinueInteract()
     {
         ClickToContinue();
+        
+        if (isTravelPoint && bagFound)
+        {
+            GameEventsManager.Instance.transitionEvents.EnterBuilding(SceneValue);
+            Debug.Log("Test");
+        }
+        
     }
     
     public void BagCheck()
@@ -163,8 +198,12 @@ public class InteractZone : MonoBehaviour, IInteractable
     {
         if (PlayerObject != null)
         {
+            GameEventsManager.Instance.inventoryEvents.AddItemName(gameObject.name);
+            Debug.Log(gameObject.name + " has been added to your inventory.");
             Destroy(gameObject);
         }
     }
+    
+    
     
 }

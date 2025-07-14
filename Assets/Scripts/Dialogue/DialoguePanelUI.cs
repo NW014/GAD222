@@ -24,6 +24,11 @@ public class DialoguePanelUI : MonoBehaviour
         GameEventsManager.Instance.dialogueEvents.onDialogueStarted += DialogueStarted;
         GameEventsManager.Instance.dialogueEvents.onDialogueEnded += DialogueEnded;
         GameEventsManager.Instance.dialogueEvents.onDisplayDialogue += DisplayDialogue;
+
+        contentParent = gameObject.transform.GetChild(0).gameObject;
+        
+        //  Player player = other.gameObject.GetComponent<Player>();
+        // thoughtBubble = player.transform.GetChild(1).GetChild(0).gameObject;
     }
 
     private void OnDisable()

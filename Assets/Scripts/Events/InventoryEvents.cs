@@ -28,4 +28,11 @@ public class InventoryEvents
     {
         bagFound?.Invoke();
     }
+
+    public event Action<string> addItemName;
+
+    public void AddItemName(string name)
+    {
+        addItemName?.Invoke(name);
+    }
 }
