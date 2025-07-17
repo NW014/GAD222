@@ -16,7 +16,6 @@ public class DialoguePanelUI : MonoBehaviour
     private void Awake()
     {
         ResetPanel();
-        contentParent.SetActive(false); 
     }
 
     private void OnEnable()
@@ -26,9 +25,8 @@ public class DialoguePanelUI : MonoBehaviour
         GameEventsManager.Instance.dialogueEvents.onDisplayDialogue += DisplayDialogue;
 
         contentParent = gameObject.transform.GetChild(0).gameObject;
-        
-        //  Player player = other.gameObject.GetComponent<Player>();
-        // thoughtBubble = player.transform.GetChild(1).GetChild(0).gameObject;
+        Debug.Log(gameObject.transform.GetChild(0).gameObject.name);
+        contentParent.SetActive(false); 
     }
 
     private void OnDisable()

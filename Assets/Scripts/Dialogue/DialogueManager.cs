@@ -7,7 +7,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Ink Story")] 
     [SerializeField] private TextAsset inkJson;
 
-    private Story story;
+    [SerializeField] private Story story;
     private InkExternalFunctions inkExternalFunctions;
 
     [SerializeField] private int currentChoiceIndex = -1;
@@ -17,6 +17,7 @@ public class DialogueManager : MonoBehaviour
     private void Awake()
     {
         story = new Story(inkJson.text);
+        Debug.Log(story);
         inkExternalFunctions = new InkExternalFunctions();
         inkExternalFunctions.Bind(story);
     }

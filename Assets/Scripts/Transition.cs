@@ -126,7 +126,7 @@ public class Transition : MonoBehaviour
     
     public void EnterBuilding(int value)
     {
-        player.transform.position = new Vector2(0,0);
+        player.transform.position = new Vector2(-0.5f,0.5f);
         SceneManager.LoadScene(value);
     }
 }

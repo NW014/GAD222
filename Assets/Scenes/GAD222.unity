@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d28ce6fa2ee6364ebda9cbb76a3ffb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentParent: {fileID: 1245514806}
+  contentParent: {fileID: 0}
   dialogueText: {fileID: 510559874}
   choiceButtons:
   - {fileID: 61054447}
@@ -941,7 +941,6 @@ GameObject:
   - component: {fileID: 226119107}
   - component: {fileID: 226119106}
   - component: {fileID: 226119105}
-  - component: {fileID: 226119109}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1034,18 +1033,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &226119109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226119104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49a4a4576bc76d942ab20072ac63a16e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &242269566
 GameObject:
   m_ObjectHideFlags: 0
@@ -8150,6 +8137,7 @@ MonoBehaviour:
   isTravelPoint: 0
   SceneValue: 0
   thoughtBubble: {fileID: 0}
+  PlayerObject: {fileID: 0}
   inDialogueRange: 0
 --- !u!61 &859846845
 BoxCollider2D:
@@ -8530,6 +8518,7 @@ MonoBehaviour:
   isTravelPoint: 0
   SceneValue: 0
   thoughtBubble: {fileID: 0}
+  PlayerObject: {fileID: 0}
   inDialogueRange: 0
 --- !u!1 &935351066
 GameObject:
@@ -11254,7 +11243,6 @@ GameObject:
   - component: {fileID: 1332809932}
   - component: {fileID: 1332809935}
   - component: {fileID: 1332809934}
-  - component: {fileID: 1332809933}
   m_Layer: 0
   m_Name: Frame 1
   m_TagString: Untagged
@@ -11277,20 +11265,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 859846843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1332809933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332809931}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 193b0d589b7531b47b48f8ebbbe4a162, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thisAsset: {fileID: 1332809935}
-  IsItem: 0
 --- !u!210 &1332809934
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -12457,7 +12431,6 @@ GameObject:
   - component: {fileID: 1441793842}
   - component: {fileID: 1441793844}
   - component: {fileID: 1441793843}
-  - component: {fileID: 1441793845}
   m_Layer: 10
   m_Name: Door zone
   m_TagString: Door
@@ -12546,6 +12519,7 @@ MonoBehaviour:
   isTravelPoint: 1
   SceneValue: 1
   thoughtBubble: {fileID: 0}
+  PlayerObject: {fileID: 0}
   inDialogueRange: 0
 --- !u!61 &1441793844
 BoxCollider2D:
@@ -12593,19 +12567,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1441793845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1441793841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c78f1652c0f4a55449566016f421dcf8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneValue: 1
 --- !u!1 &1450550923
 GameObject:
   m_ObjectHideFlags: 0
@@ -15159,6 +15120,7 @@ MonoBehaviour:
   isTravelPoint: 0
   SceneValue: 0
   thoughtBubble: {fileID: 0}
+  PlayerObject: {fileID: 0}
   inDialogueRange: 0
 --- !u!61 &1940912747
 BoxCollider2D:

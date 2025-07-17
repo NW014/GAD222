@@ -100,6 +100,7 @@ public class Player : MonoBehaviour
             if (InputSystem.GetDevice<Mouse>().leftButton.wasPressedThisFrame)
             {
                 nearInteractable.ContinueInteract();
+                Debug.Log("Interacting...");
             }
         }
         

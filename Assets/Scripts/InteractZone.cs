@@ -23,7 +23,7 @@ public class InteractZone : MonoBehaviour, IInteractable
     [SerializeField] private GameObject thoughtBubble;
     
     
-    private GameObject PlayerObject;
+    [SerializeField] private GameObject PlayerObject;
     
     private bool bagCollected = false;
 
@@ -133,7 +133,7 @@ public class InteractZone : MonoBehaviour, IInteractable
         
         if (isTravelPoint)
         {
-            GameEventsManager.Instance.transitionEvents.EnterBuilding(SceneValue);
+            //GameEventsManager.Instance.transitionEvents.EnterBuilding(SceneValue);
         }
         else
         {
@@ -148,7 +148,7 @@ public class InteractZone : MonoBehaviour, IInteractable
         
         if (isTravelPoint && bagFound)
         {
-            GameEventsManager.Instance.transitionEvents.EnterBuilding(SceneValue);
+            //GameEventsManager.Instance.transitionEvents.EnterBuilding(SceneValue);
             Debug.Log("Test");
         }
         

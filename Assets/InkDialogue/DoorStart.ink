@@ -1,6 +1,7 @@
 === DoorStart ===
 {bagCollected:
     {itemsCollected:
+       Test
         -> END
     
         - else:
@@ -11,8 +12,6 @@
             
             - else:
             I think that's everything. Time to start my journey!
-            
-            (Now pretend the door has opened and you're able to go outside. This is as far as this prototype goes.)
             ~itemsCollected = true
             ~ EnterBuilding(1)
             -> END
