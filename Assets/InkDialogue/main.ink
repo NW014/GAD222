@@ -9,6 +9,7 @@ VAR coinCount = 0
 VAR bagCollected = false
 VAR itemsCollected = false
 VAR itemCount = 0
+VAR firstMeetStatue = true
 
 INCLUDE npc1.ink
 INCLUDE statue.ink

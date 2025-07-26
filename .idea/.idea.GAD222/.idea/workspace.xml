@@ -6,19 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="174934d7-f308-41db-aac5-e162ae7d99f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD222/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD222/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Sprites/spr_tileset_sunnysideworld_16px.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Sprites/spr_tileset_sunnysideworld_16px.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Tile Palettes/Rectangular Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Tile Palettes/Rectangular Palette.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Objects/spr_tileset_sunnysideworld_16px.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Objects/spr_tileset_sunnysideworld_16px.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/DoorStart.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/DoorStart.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/Sign.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/Sign.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/main.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/main.ink" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/main.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/main.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GAD222.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GAD222.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/npc1.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/npc1.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/statue.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/statue.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GAD222.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GAD222.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Outdoor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Outdoor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialoguePanelUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialoguePanelUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractZone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$ Build\GAD222.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Quest Against Hunger\GAD222.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\nicho\Desktop\GAD222 Build" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -118,6 +118,8 @@
       <workItem from="1752477913750" duration="27846000" />
       <workItem from="1752514525882" duration="2123000" />
       <workItem from="1752678135158" duration="10828000" />
+      <workItem from="1752713553876" duration="3467000" />
+      <workItem from="1753514249990" duration="2951000" />
     </task>
     <servers />
   </component>

@@ -50,6 +50,7 @@ Wait, are those coins I smell on you?
 Are you looking for a fight? Bring it on then!
 + [Start battle]
     ~ StartCombat()
+    -> END
 + [Leave quietly]
     Hmph. Don't come bother me again.
-- -> END
+    -> END

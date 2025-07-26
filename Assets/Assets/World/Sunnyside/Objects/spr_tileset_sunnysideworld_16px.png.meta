@@ -2314,7 +2314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_54
+      name: rock_5
       rect:
         serializedVersion: 2
         x: 496
@@ -2336,7 +2336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_55
+      name: rock_6
       rect:
         serializedVersion: 2
         x: 511
@@ -2358,7 +2358,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_56
+      name: rock_7
       rect:
         serializedVersion: 2
         x: 529
@@ -2380,7 +2380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_57
+      name: rock_8
       rect:
         serializedVersion: 2
         x: 545
@@ -6714,7 +6714,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_254
+      name: rock_1
       rect:
         serializedVersion: 2
         x: 786
@@ -6736,7 +6736,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_255
+      name: rock_2
       rect:
         serializedVersion: 2
         x: 819
@@ -6758,7 +6758,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_256
+      name: rock_3
       rect:
         serializedVersion: 2
         x: 854
@@ -6780,7 +6780,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_257
+      name: rock_4
       rect:
         serializedVersion: 2
         x: 882
@@ -8735,6 +8735,14 @@ TextureImporter:
       Sign_1: -488970253
       Sign_2: 385539044
       Tree_1: 8096361381290461638
+      rock_1: -6348058901374866704
+      rock_2: -8303729220612996008
+      rock_3: -8962263016563511920
+      rock_4: -8237692374363767376
+      rock_5: 6319873505523590716
+      rock_6: -716421764222722371
+      rock_7: 540761742216015572
+      rock_8: -2314484893994715897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
