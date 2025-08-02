@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="174934d7-f308-41db-aac5-e162ae7d99f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD222/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD222/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Objects/spr_tileset_sunnysideworld_16px.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/World/Sunnyside/Objects/spr_tileset_sunnysideworld_16px.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/DoorStart.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/DoorStart.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/main.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/main.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/main.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/main.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/npc1.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/npc1.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InkDialogue/statue.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkDialogue/statue.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GAD222.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GAD222.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Outdoor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Outdoor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Crossfade_End.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Crossfade_End.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Crossfade_Start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Crossfade_Start.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/TransitionCanvas.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TransitionCanvas.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TeleportDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TeleportDoor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +25,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/84f0d810adef4e6c8deab33e4ae93f7c1dec00/de/d4347602/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../College things/GAD213/Project GAD213/Assets/Scripts/Transition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/TransitionEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -119,7 +112,9 @@
       <workItem from="1752514525882" duration="2123000" />
       <workItem from="1752678135158" duration="10828000" />
       <workItem from="1752713553876" duration="3467000" />
-      <workItem from="1753514249990" duration="2951000" />
+      <workItem from="1753514249990" duration="4619000" />
+      <workItem from="1753921653104" duration="4719000" />
+      <workItem from="1754132927192" duration="8157000" />
     </task>
     <servers />
   </component>

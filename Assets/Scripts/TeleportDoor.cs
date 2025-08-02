@@ -1,5 +1,8 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class TeleportDoor : MonoBehaviour, IInteractable
 {
@@ -8,10 +11,19 @@ public class TeleportDoor : MonoBehaviour, IInteractable
     private Vector2 otherPosition;
     private GameObject thoughtBubble;
     private GameObject playerObject;
+    public Image FadeScreen;
+    public Player player;
+    
+    public Animator sceneChanger;
+
+    public void OnEnable()
+    {
+        FadeScreen = GameObject.Find("FadeScreen").GetComponent<Image>();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Player player = other.gameObject.GetComponent<Player>();
+        player = other.gameObject.GetComponent<Player>();
         otherPosition = other.transform.position;
         thoughtBubble = player.transform.GetChild(1).GetChild(0).gameObject;
         
@@ -34,7 +46,7 @@ public class TeleportDoor : MonoBehaviour, IInteractable
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        Player player = other.gameObject.GetComponent<Player>();
+        player = other.gameObject.GetComponent<Player>();
         
         thoughtBubble.gameObject.SetActive(false);
         
@@ -52,14 +64,49 @@ public class TeleportDoor : MonoBehaviour, IInteractable
     {
         // GameEventsManager.Instance.transitionEvents.EnterBuilding(SceneValue);
         // Debug.Log("Jumping to scene " + SceneValue);
-        playerObject.transform.position = new Vector2(DoorXValue, DoorYValue);
+        
+        StartCoroutine(FadeToMain());
+        //playerObject.transform.position = new Vector2(DoorXValue, DoorYValue);
     }
 
     public void ContinueInteract()
     {
         // GameEventsManager.Instance.transitionEvents.EnterBuilding(SceneValue);
         // Debug.Log("Going to scene " + SceneValue);
-        playerObject.transform.position = new Vector2(DoorXValue, DoorYValue);
+        
+        StartCoroutine(FadeToMain());
+        //playerObject.transform.position = new Vector2(DoorXValue, DoorYValue);
     }
-    
+
+    IEnumerator FadeToMain()
+    {
+        Debug.Log("Starting fade.");
+        sceneChanger.SetTrigger("Start");
+
+        player.movementDisabled = true;
+        
+        yield return new WaitForSeconds(1f);
+        
+        playerObject.transform.position = new Vector2(DoorXValue, DoorYValue);
+        
+        // Resets player back to original location before scene change.
+        //cameraScript.enabled = true;
+        //player.transform.position = locationBeforeChange;
+        //player.gameObject.transform.localScale = new Vector3(1, 1, 1);
+        //player.movementDisabled = false;
+        
+        // Adds UI and overworld graphic back
+        //overworldCanvas.SetActive(true);
+        //overworldGraphics.SetActive(true);
+        //playerCanvas.transform.position = playerUILocation;
+        
+        yield return new WaitForSeconds(1f);
+        
+        sceneChanger.SetTrigger("Continue");
+        Debug.Log("Teleported.");
+        
+        yield return new WaitForSeconds(1f);
+        
+        player.movementDisabled = false;
+    }
 }
