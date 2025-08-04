@@ -47,6 +47,8 @@ public class DialogueManager : MonoBehaviour
 
     private void EnterDialogue(string knotName)
     {
+        GameEventsManager.Instance.audioEvents.MenuClick();
+        
         // prevents player from entering new dialogue while in dialogue.
         if (dialogueActive)
         {
@@ -85,6 +87,8 @@ public class DialogueManager : MonoBehaviour
         
         if (story.canContinue)
         {
+            GameEventsManager.Instance.audioEvents.MenuClick();
+            
             string dialogueLine = story.Continue();
             GameEventsManager.Instance.dialogueEvents.DisplayDialogue(dialogueLine, story.currentChoices);
             // Debug.Log(dialogueLine);

@@ -126,8 +126,12 @@ public class Transition : MonoBehaviour
     
     public void EnterBuilding(int value)
     {
+        // Currently hardcoded specifically for exiting the house
+        
         // player.transform.position = new Vector2(-0.5f,0.5f);
         // SceneManager.LoadScene(value);
+
+        GameEventsManager.Instance.audioEvents.EnterOutdoor();
         
         player.transform.position = new Vector2(33.25f, 0.5f);
     }

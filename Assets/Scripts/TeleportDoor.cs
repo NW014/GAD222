@@ -8,6 +8,7 @@ public class TeleportDoor : MonoBehaviour, IInteractable
 {
     public int DoorXValue;
     public int DoorYValue;
+    public int LeadsToScene;
     private Vector2 otherPosition;
     private GameObject thoughtBubble;
     private GameObject playerObject;
@@ -80,10 +81,14 @@ public class TeleportDoor : MonoBehaviour, IInteractable
 
     IEnumerator FadeToMain()
     {
+        player.movementDisabled = true;
+        
+        GameEventsManager.Instance.audioEvents.DoorOpen();
+        // Called enterhome but is just a music update based on area entered
+        GameEventsManager.Instance.audioEvents.EnterHome(LeadsToScene);
+        
         Debug.Log("Starting fade.");
         sceneChanger.SetTrigger("Start");
-
-        player.movementDisabled = true;
         
         yield return new WaitForSeconds(1f);
         
@@ -101,6 +106,10 @@ public class TeleportDoor : MonoBehaviour, IInteractable
         //playerCanvas.transform.position = playerUILocation;
         
         yield return new WaitForSeconds(1f);
+        
+        GameEventsManager.Instance.audioEvents.DoorClose();
+        
+        yield return new WaitForSeconds(0.5f);
         
         sceneChanger.SetTrigger("Continue");
         Debug.Log("Teleported.");

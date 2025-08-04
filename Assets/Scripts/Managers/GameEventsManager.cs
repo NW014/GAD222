@@ -24,6 +24,7 @@ public class GameEventsManager : MonoBehaviour
     public InventoryEvents inventoryEvents;
     public BattleEvents battleEvents;
     public TransitionEvents transitionEvents;
+    public AudioEvents audioEvents;
 
     void Awake()
     {
@@ -36,5 +37,6 @@ public class GameEventsManager : MonoBehaviour
         inventoryEvents = new InventoryEvents();
         battleEvents = new BattleEvents();
         transitionEvents = new TransitionEvents();
+        audioEvents = new AudioEvents();
     }
 }

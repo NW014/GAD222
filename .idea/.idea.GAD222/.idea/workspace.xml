@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="174934d7-f308-41db-aac5-e162ae7d99f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD222/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD222/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Crossfade_End.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Crossfade_End.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Crossfade_Start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Crossfade_Start.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/TransitionCanvas.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TransitionCanvas.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameEventsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameEventsManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TeleportDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TeleportDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Transition.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,8 @@
       <workItem from="1752713553876" duration="3467000" />
       <workItem from="1753514249990" duration="4619000" />
       <workItem from="1753921653104" duration="4719000" />
-      <workItem from="1754132927192" duration="8157000" />
+      <workItem from="1754132927192" duration="9022000" />
+      <workItem from="1754311389126" duration="9724000" />
     </task>
     <servers />
   </component>

@@ -49,6 +49,8 @@ public class Dialogue : MonoBehaviour
 
     void NextLine()
     {
+        GameEventsManager.Instance.audioEvents.MenuClick();
+        
         if (index < lines.Length - 1)
         {
             index++;
